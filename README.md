@@ -2,6 +2,6 @@
 Angular 8+ Notes  
 
 ## Content  
-1. 01 - Architecture and workflow  
-2. 02 - Components  
+* 01 - Architecture and workflow  
+* 02 - Components  
 
