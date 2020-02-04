@@ -181,7 +181,6 @@ Use `bind-DOM-element-name` instead of `[DOM-element-name]` :
 ## Conclusion	
 Use `[DOM-elememnt-name] = 'value'` without `{{}}` is a easy way to do property binding for both string types and none-string types. And you can also use `bind-DOM-element-name = 'value'` instead. 
 
- 
 
 
 
