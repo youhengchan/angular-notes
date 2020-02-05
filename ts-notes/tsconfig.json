@@ -1,0 +1,15 @@
+{
+   "compilerOptions": {
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "outDir": "./",
+        "experimentalDecorators": true
+    },
+    "files": [
+        "testFinalDecorator.ts",
+    ]
+}
+
+
+// es6 报错： SyntaxError: Cannot use import statement outside a module
