@@ -1,4 +1,4 @@
-#[Angular] 23 - Route Parameters 
+# [Angular] 23 - Route Parameters 
 
 > **by youhengchan**  
 
