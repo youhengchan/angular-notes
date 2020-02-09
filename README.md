@@ -14,3 +14,4 @@ Angular 8+ Notes
 * 10 - [Http and Observables](https://github.com/youhengchan/angular-notes/blob/master/angular-18-http-and-observables.png)
 * 11 - [Fetch and Using Http](https://github.com/youhengchan/angular-notes/blob/master/angular-19-fetch-and-using-http.md)
 * 12 - [Routing And Navigation](https://github.com/youhengchan/angular-notes/blob/master/angular-21-routing-and-navigation.md)
+* 13 - [Wildcard Routes and Redirecting Routes](https://github.com/youhengchan/angular-notes/blob/master/angular-22-wildcard-routes-and-redirecting-routes.md)
