@@ -25,7 +25,7 @@ The project just inherited from the elder version of the version created before 
 
 In this section, I generated two new components (`employee-detail` and `employee-list` components) and a service that provides the reusable data.  
 
-### **Hint **  
+### Hint 
 * To generate component : `ng g c employee-detail` && `ng g c employee-list`
 * To generate service : `ng g s employee` (`s` for `service`)  
 
