@@ -11,3 +11,6 @@ Angular 8+ Notes
 * 07 - [Component Interaction](https://github.com/youhengchan/angular-notes/blob/master/angular-13-component-interation.zip)
 * 08 - [Pipes](https://github.com/youhengchan/angular-notes/blob/master/angular-14-pipes.md)
 * 09 - [Services](https://github.com/youhengchan/angular-notes/blob/master/angular-15-17-service.md)
+* 10 - [Http and Observables](https://github.com/youhengchan/angular-notes/blob/master/angular-18-http-and-observables.png)
+* 11 - [Fetch and Using Http](https://github.com/youhengchan/angular-notes/blob/master/angular-19-fetch-and-using-http.md)
+* 12 - [Routing And Navigation](https://github.com/youhengchan/angular-notes/blob/master/angular-21-routing-and-navigation.md)
