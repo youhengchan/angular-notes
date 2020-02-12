@@ -2,7 +2,7 @@
 
 > **by youhengchan** 
 
-The components has two kinds of relationships : **parental** && **filial** && **siblings**  
+The components 3 diff kinds of relationships : **parental** && **filial** && **siblings**  
 
 ## Example Structure    
 Parental Component : `appComponent`  
