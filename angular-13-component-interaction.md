@@ -2,7 +2,7 @@
 
 > **by youhengchan** 
 
-The components has two kinds of relationships : **parental** && **filial**   
+The components has two kinds of relationships : **parental** && **filial** && **siblings**  
 
 ## Example Structure    
 Parental Component : `appComponent`  
@@ -239,3 +239,7 @@ Effect :
 
 ![final-effect](https://i.imgur.com/PMMvSm9.png)
 	  
+	  
+## Siblings
+* **LocalStorage**
+* **Services** 
