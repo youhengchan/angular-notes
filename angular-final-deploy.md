@@ -4,7 +4,8 @@
 
 ## Build the project  
 * Change dir into the project you want to build  : `cd /dir/to/dest`
-* Build the project : `ng build --prod`  
+* Build the project : `ng build --prod`   
+
 ![built-project](https://i.imgur.com/zavl1mC.png)
 
 ## Download Tiny Server
