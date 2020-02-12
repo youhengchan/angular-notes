@@ -14,7 +14,7 @@ Filial Component : `testComponent`
 * `app.component.ts`  
 * `app.component.html`  
 
-### Code && Explanation 
+### Solution 1 : Code && Explanation 
 The first step to take before we transmit the data from filial component to parental component is to import the corresponding module. Here we import the decorator `Output` and class `EventEmitter` from `@angular/core`.  
 
     import { Component, OnInit, Output, EventEmitter } from '@angular/core';
@@ -119,7 +119,31 @@ After we click the button, the message sent fom testComponent should then be dis
 
 ![After we click the send button](https://i.imgur.com/FDdcuwQ.png)  
   
+### Solution 2 : Code && Explanation
+There are actually an easier way for transmitting the data from child to parent: use `@ViewChild('xxx')` decorator.  
+
+Initially, we import the child label in the parental `.html` file. And tag the label with name - `labelName`.    
+
+	// parent.component.html
+	<son-label #labelName><son-label> 
+
+In the corresponding parental `.ts` file, we then import the `ViewChild` module from the `@angular/core` : `import {ViewChild} from '@angular/core;`.
+
+And then bind the child with the pre-defined name : `labelName` :  
+
+`@ViewChild('labelName') child : any;`  
+
+Finally, we can then use the child component in the parental `.ts` file :  
+
+	// parent.component.ts
+	parentMethod() {
+		this.child.childMethod();	
+	}    
   
+
+  
+
+ 
 ## Parent to Son
 ### Files :   
 * `test.componnet.ts (embeded with html and css)`  
@@ -215,9 +239,3 @@ Effect :
 
 ![final-effect](https://i.imgur.com/PMMvSm9.png)
 	  
-
-
- 
-  
-
-
